@@ -7,7 +7,7 @@ joblib>=1.4.2
 xgboost==3.4.1
 # IMPORTANT: pin this to the exact version you trained with
 # (run `pip show scikit-learn` locally), or the .pkl may fail to load.
-scikit-learn>=1.6.1
+scikit-learn>=1.9.0
 # If your model is XGBoost / LightGBM, add it here too:
 # xgboost
 # lightgbm
