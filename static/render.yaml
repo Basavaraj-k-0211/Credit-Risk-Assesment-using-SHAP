@@ -3,8 +3,8 @@ services:
     name: credit-risk-app
     runtime: python
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    buildCommand: pip install -r static/requirements.txt
+    startCommand: uvicorn main_cloude:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
     autoDeploy: true
     envVars:
